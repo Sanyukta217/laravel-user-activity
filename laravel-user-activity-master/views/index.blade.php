@@ -12,7 +12,7 @@
         angular.module('__paging', []).directive('paging', function () {
 
             var regex = /\{page\}/g;
- 
+
             return {
                 // Restrict to elements and attributes
                 restrict: 'EA',
@@ -412,7 +412,7 @@
 <header>
     <div class="name">
         <span>user</span>
-        <span class="letter_a">A</span> <span>ctivity</span>
+        <span class="letter_a">L</span> <span>ctivity</span>
     </div>
     <div class="actions">
         <a class="btn" href="{{url(config('user-activity.admin_panel_path'))}}">Goto Admin Panel</a>
